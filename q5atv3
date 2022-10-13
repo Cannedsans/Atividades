@@ -1,0 +1,23 @@
+programa
+{
+ funcao inicio ()
+ {
+     real h1,h2,m1,m2, hn, mv
+     escreva ("\n informe a idade do primeiro")
+  leia (h1)
+  escreva ("\n informe a idade do segundo")
+  leia (h2)
+  escreva ("\n informe a idade da primeira")
+  leia (m1)
+  escreva ("\n informe a idade da segunda")
+  leia (m2)
+  se ((h1 == h2) ou(m1 == m2) ou (m1 == h1) ou (m2 ==h2)){
+   escreva ("\n não aceitamos pessoa da mesma idade")
+  }senao {se (h1>h2) {hn=h2}senao {hn=h1} 
+  se (m1>m2) {hn=m2}senao {mv=m1}
+  escreva ("\n a mulher mais velha tem",mv)
+   escreva ("\n o homem mais novo tem",hn)
+        escreva ("\n a soma das idades é ",m1+m2)
+  se ((m1>50)ou(m2>50)ou(h1>50)ou(h2>50)){escreva ("\n você é idoso(a)")
+  }  
+}}}
