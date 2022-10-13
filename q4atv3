@@ -1,0 +1,14 @@
+programa
+{
+ funcao inicio ()
+ {
+  real l1,l2,l3
+        escreva ("informe o lado x do triângulo")
+  leia (l1)
+  escreva ("informe o lado y do triângulo")
+  leia (l2)
+  escreva ("informe o lado z do triângulo")
+  leia (l3)
+  se ((l1+l2>l3)ou(l1+l3>l2)ou(l3+l2>l1)){ escreva ("\n é um triângulo")
+  }senao {escreva ("\n não é um triângulo")} 
+}}
