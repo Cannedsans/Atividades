@@ -1,0 +1,18 @@
+programa
+{
+ funcao inicio ()
+ {
+  inteiro risco
+cadeia nome, rua
+  escreva ("\nInforme o risco (número max 10)")
+  leia (risco)
+  se (risco>9){escreva("/n informe seu nome")
+   leia (nome)
+   escreva ("/n informe sua rua")
+   leia (rua)
+   escreva ("/n atenção", nome)
+   escreva (" sua rua :",rua)
+   escreva ("está interessada!")
+  }
+ }
+}
