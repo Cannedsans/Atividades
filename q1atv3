@@ -1,0 +1,14 @@
+programa
+{
+ funcao inicio ()
+ {
+  real n1, n2, ns
+escreva ("\ndigite o primeiro número")
+leia (n1)
+escreva ("\ndigite o segundo número")
+leia (n2)
+ns =n1+n2
+se (ns>30){escreva ("\n é maior que 30!")}
+senao se (ns>10){escreva (ns*ns)}
+ }
+}
