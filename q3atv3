@@ -1,0 +1,19 @@
+programa
+{
+ funcao inicio ()
+ {
+     logico vaca, cachorro, baleia, borboleta
+  escreva ("esse animal é aquático? (responda verdadeiro ou falso)")
+  leia (baleia)
+  se (baleia == falso){escreva ("/n então é uma baleia")
+  }
+  senao {escreva ("/n esse animal voa?")
+  leia (borboleta)se (borboleta == falso){escreva ("/n então é uma borboleta")}
+  senao {escreva ("/n esse animal é grande?")
+  leia (vaca)
+  se (vaca == falso){escreva ("/n estão é um boi")}
+  senao {escreva ("/n esse animal tem fama de ser o melhor amigo do homen?")
+  leia (cachorro)
+  se (cachorro == falso){escreva ("/então é um cachorro!")
+  } senao {escreva ("/nchega de perguntas, é um gato!")}
+}}}}}
